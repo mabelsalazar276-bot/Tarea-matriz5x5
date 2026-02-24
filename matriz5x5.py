@@ -1,12 +1,12 @@
-echo "matriz = [[0 for _ in range(5)] for _ in range(5)]
+matriz = [[0 for _ in range(5)] for _ in range(5)]
 
 for i in range(5):
     for j in range(5):
-        valor = int(input(f'Ingrese el valor para la posicion [{i}][{j}]: '))
+        valor = int(input(f"Ingrese el valor para la posición [{i}][{j}]: "))
         matriz[i][j] = valor
 
-print('\nMatriz ingresada:')
+print("\nMatriz ingresada:")
 for i in range(5):
     for j in range(5):
-        print(matriz[i][j], end='\t')
-    print()" > matriz5x5.py
+        print(matriz[i][j], end="\t")
+    print()
